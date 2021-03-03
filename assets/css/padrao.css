@@ -1,0 +1,152 @@
+.bg-custom {
+    background: #2f3835;
+}
+
+body {
+    background: #222222;
+}
+
+#carouselExampleSlidesOnly {
+    height: 500px;
+    background: #0d6efd;
+    overflow: hidden;
+}
+
+.carousel-img {
+    width: 100%;
+    position: relative;
+}
+
+.img-starwars, .img-jumaji, .img-v8 {
+    top: -550px;
+}
+
+.reserva-header {
+    position: relative;
+}
+
+.container {
+    clear: both;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 1px 2px 5px black;
+}
+
+.reserva-header {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.reservar-panel {
+    position: absolute;
+    top: 3px;
+    right: 30px;
+    display: block;
+    background: white;
+    width: 450px;
+    height: 99%;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px #00000080;
+}
+
+.reservar-brand {
+    position: absolute;
+    top: 50px;
+    background: #0d6efd;
+    width: 110%;
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    box-shadow: 0px -2px 3px -1px #0000006e, 0px 2px 3px -1px #0000006e;
+}
+
+.reservar-panel form {
+    width: 400px;
+    margin: 180px auto;
+    position: relative;
+}
+
+.catalogo-container, aside {
+    float: left;
+}
+
+.catalogo-container {
+    overflow: hidden;
+    position: relative;
+    display: inline;
+}
+
+.catalogo-wide {
+    width: 99999px;
+}
+
+#catalogo_prev {
+    height: 410px;
+}
+#catalogo_prev .card {
+    float: left;
+    border: none;
+    margin: 0 5px;
+    width: 16.8rem
+}
+#catalogo_prev .card-body {
+    position: absolute;
+    bottom: 10px;
+    background: #000000b8;
+    color: white;
+}
+
+#catalogo_prev .card-img-top {
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.container {
+    margin: 15px auto;
+}
+
+#newsletter {
+    height: 405px;
+    background: transparent;
+}
+
+#newsletter .card-body {
+    position: initial;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #ff6200, #ff7300b8);
+}
+
+#newsletter .card-body .card-title {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 40px;
+}
+footer {
+    clear: both;
+    padding: 30px;
+    text-align: center;
+    background: #313131;
+    color: white;
+    font-weight: 700;
+}
+
+.user {
+    margin: 0 auto;
+}
+
+.user_image {
+    margin: 5px 0;
+    overflow: hidden;
+}
+.user_image img {
+    width: 128px;
+    border-radius: 60px;
+}
